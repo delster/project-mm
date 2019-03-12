@@ -1,20 +1,26 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "name": "project-mm",
+  "description": "JAMstack website using WordPress as the API Layer.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "David Elster <davidandtheweb@gmail.com>",
   "dependencies": {
+    "apollo-boost": "^0.3.1",
     "gatsby": "^2.1.29",
     "gatsby-image": "^2.0.31",
     "gatsby-plugin-manifest": "^2.0.22",
     "gatsby-plugin-offline": "^2.0.24",
     "gatsby-plugin-react-helmet": "^3.0.8",
+    "gatsby-plugin-sass": "^2.0.11",
     "gatsby-plugin-sharp": "^2.0.26",
     "gatsby-source-filesystem": "^2.0.23",
+    "gatsby-source-graphql": "^2.0.14",
     "gatsby-transformer-sharp": "^2.1.15",
+    "graphql": "^14.1.1",
+    "node-sass": "^4.11.0",
+    "normalize.css": "^8.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
+    "react-apollo": "^2.5.2",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0"
   },
@@ -35,9 +41,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/delster/project-mm"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/delster/project-mm/issues"
   }
 }
