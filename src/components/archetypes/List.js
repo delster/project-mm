@@ -1,6 +1,6 @@
 import React from 'react'
 import { Query } from 'react-apollo'
-import gql from 'graphql-tag'
+import gql, { disableFragmentWarnings }  from 'graphql-tag'
 import ArchetypesCard from './Card'
 
 const ARCHETYPE_LIST_QUERY = gql`
@@ -65,5 +65,7 @@ const ArchetypesList = ({ searchQuery }) => (
     }}
   </Query>
 );
+
+gql.disableFragmentWarnings = disableFragmentWarnings;
 
 export default ArchetypesList
