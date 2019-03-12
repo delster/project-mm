@@ -2,6 +2,12 @@
 
 I've kicked off this project using GatsbyJS, Apollo Client, a GraphQL API layer exposed by WP-GraphQL, a WordPress install as the authority on the data, and the initial (live) data provided by the client.
 
+Look at this cool badge Netlify lets us put here in the repo's README:
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5caf7423-2033-4a7f-aea1-b3677eefb245/deploy-status)](https://app.netlify.com/sites/project-mm/deploys)
+
+That's the build/deploy status of the free CI/CD pipeline provided by Netlify, where this site is published to their CDN (also for free) at [https://project-mm.netlify.com/](https://project-mm.netlify.com/) while it's in development.
+
 ## 🚀 Quick start
 
 0.  **Do not clone or pull down this repo, it will not work out of the box for you.**
